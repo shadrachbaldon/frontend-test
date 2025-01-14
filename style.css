@@ -30,7 +30,7 @@ body {
     background-color: #B8F442;
 }
 
-#sidebar .nav-link.active {
+#sidebar .nav-link.current {
     background-color: var(--bs-primary);
 }
 
@@ -54,6 +54,9 @@ body {
         right: -2px;
         padding: 5px;
     }
+    #top-nav-bar {
+        height: 70px;
+    }
 }
 /* BIG SCREENS */
 @media (min-width: 992px) {
@@ -63,5 +66,8 @@ body {
 
     .sidebar-header {
         height: 100px;
+    }
+    .z-lg-3 {
+        z-index: 3!important;
     }
 }
